@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Kp2lSwlDy9E76RFe+yUYeB0aI5hNzb3CfyP4wLgEFYvx3+CZzRV0j7WWud9pCvfA5Dqw4TxkfSoTksMY+DBb4Q==",
+  "dgSpecHash": "QAvMZ5x2uchYoExbEjwKnsS7eITFmA1nJ0zfMVH7H6Xl9KXUqjAwtJDLuyOpyMqefyefWUthJL6qjN2uOXMJTA==",
   "success": true,
-  "projectFilePath": "D:\\Downloads\\brainfuck\\func-brainfuck.csproj",
+  "projectFilePath": "F:\\Программирование\\C#\\ulearn\\repos\\Ulearn\\Делегаты\\brainfuck\\func-brainfuck.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\monvex_\\.nuget\\packages\\microsoft.codecoverage\\17.4.1\\microsoft.codecoverage.17.4.1.nupkg.sha512",
     "C:\\Users\\monvex_\\.nuget\\packages\\microsoft.net.test.sdk\\17.4.1\\microsoft.net.test.sdk.17.4.1.nupkg.sha512",
@@ -13,6 +13,7 @@
     "C:\\Users\\monvex_\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\monvex_\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\monvex_\\.nuget\\packages\\nunit\\3.13.3\\nunit.3.13.3.nupkg.sha512",
+    "C:\\Users\\monvex_\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Users\\monvex_\\.nuget\\packages\\nunitlite\\3.13.3\\nunitlite.3.13.3.nupkg.sha512",
     "C:\\Users\\monvex_\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],

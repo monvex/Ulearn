@@ -354,6 +354,12 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit3TestAdapter/4.4.2": {
+        "type": "package",
+        "build": {
+          "build/netcoreapp3.1/NUnit3TestAdapter.props": {}
+        }
+      },
       "NUnitLite/3.13.3": {
         "type": "package",
         "dependencies": {
@@ -854,6 +860,33 @@
         "nunit.nuspec"
       ]
     },
+    "NUnit3TestAdapter/4.4.2": {
+      "sha512": "vA/iHYcR+LYw+pRWQugckC/zW2fXHaqMr2uA82NOBt8v4YK4wMJrQ7QC8XLc7PjetEZ96cPbBTWsDDtmQiRZTA==",
+      "type": "package",
+      "path": "nunit3testadapter/4.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net462/NUnit3.TestAdapter.dll",
+        "build/net462/NUnit3.TestAdapter.pdb",
+        "build/net462/NUnit3TestAdapter.props",
+        "build/net462/nunit.engine.api.dll",
+        "build/net462/nunit.engine.core.dll",
+        "build/net462/nunit.engine.dll",
+        "build/net462/testcentric.engine.metadata.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp3.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp3.1/NUnit3TestAdapter.props",
+        "build/netcoreapp3.1/nunit.engine.api.dll",
+        "build/netcoreapp3.1/nunit.engine.core.dll",
+        "build/netcoreapp3.1/nunit.engine.dll",
+        "build/netcoreapp3.1/testcentric.engine.metadata.dll",
+        "docs/README.md",
+        "nunit3testadapter.4.4.2.nupkg.sha512",
+        "nunit3testadapter.nuspec",
+        "nunit_256.png"
+      ]
+    },
     "NUnitLite/3.13.3": {
       "sha512": "w0UmxCB+rilBhqAjjPDDwUc7luFlMaKofG6t/JUVe82ywZcAthoUGs1BpX8ifSLrgtDTZ1LG8l5cHMUXvnd9rw==",
       "type": "package",
@@ -907,6 +940,7 @@
     "net6.0": [
       "Microsoft.NET.Test.Sdk >= 17.4.1",
       "NUnit >= 3.13.3",
+      "NUnit3TestAdapter >= 4.4.2",
       "NUnitLite >= 3.13.3"
     ]
   },
@@ -916,11 +950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Downloads\\brainfuck\\func-brainfuck.csproj",
+      "projectUniqueName": "F:\\Программирование\\C#\\ulearn\\repos\\Ulearn\\Делегаты\\brainfuck\\func-brainfuck.csproj",
       "projectName": "brainfuck",
-      "projectPath": "D:\\Downloads\\brainfuck\\func-brainfuck.csproj",
+      "projectPath": "F:\\Программирование\\C#\\ulearn\\repos\\Ulearn\\Делегаты\\brainfuck\\func-brainfuck.csproj",
       "packagesPath": "C:\\Users\\monvex_\\.nuget\\packages\\",
-      "outputPath": "D:\\Downloads\\brainfuck\\obj\\",
+      "outputPath": "F:\\Программирование\\C#\\ulearn\\repos\\Ulearn\\Делегаты\\brainfuck\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\monvex_\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -931,7 +965,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
       },
       "frameworks": {
         "net6.0": {
@@ -956,6 +991,10 @@
           "NUnit": {
             "target": "Package",
             "version": "[3.13.3, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[4.4.2, )"
           },
           "NUnitLite": {
             "target": "Package",

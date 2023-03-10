@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Делегаты",
+    "\\Делегаты\\brainfuck"
   ],
-  "SelectedNode": "\\F:\\Программирование\\C#\\ulearn\\repos\\Ulearn",
+  "SelectedNode": "\\Делегаты\\brainfuck\\VirtualMachine.cs",
   "PreviewInSolutionExplorer": false
 }

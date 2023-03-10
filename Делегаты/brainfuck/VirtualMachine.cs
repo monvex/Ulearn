@@ -9,9 +9,9 @@ namespace func.brainfuck
 		public int InstructionPointer { get; set; }
 		public byte[] Memory { get; }
 		public int MemoryPointer { get; set; }
-		private Dictionary<char, Action<IVirtualMachine>> InstructionDict { get; set; } //Словарь для хранения инструкций 
+		private Dictionary<char, Action<IVirtualMachine>> InstructionDict { get; set; } //РРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј РїРѕР»СЏ РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРµ 
 
-		public VirtualMachine(string program, int memorySize) //Инициализируем поля в конструкторе 
+		public VirtualMachine(string program, int memorySize) //РРЅРёС†РёР°Р»РёР·РёСЂСѓРµРј РїРѕР»СЏ РІ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂРµ 
 		{
 			Instructions = program;
 			Memory = new byte[memorySize];
@@ -22,16 +22,16 @@ namespace func.brainfuck
 
 		public void RegisterCommand(char symbol, Action<IVirtualMachine> execute)
 		{
-			InstructionDict.Add(symbol, execute); //Добавляем в словарь название инструкции и ее тело
+			InstructionDict.Add(symbol, execute); //Р”РѕР±Р°РІР»СЏРµРј РІ СЃР»РѕРІР°СЂСЊ РЅР°Р·РІР°РЅРёРµ РёРЅСЃС‚СЂСѓРєС†РёРё Рё РµРµ С‚РµР»Рѕ РёСЃРїРѕР»СЊР·СѓСЏ Р°РЅРѕРЅРёРјРЅС‹Р№ РґРµР»РµРіР°С‚, РїРµСЂРµРґР°РЅРЅС‹Р№ РІ РјРµС‚РѕРґ РІ РєР°С‡РµСЃС‚РІРµ Р°СЂРіСѓРјРµРЅС‚Р°
 		}
 
 		public void Run()
 		{
 			while (InstructionPointer < Instructions.Length)
 			{
-				if (InstructionDict.TryGetValue(Instructions[InstructionPointer], out var instruction)) //Если нашли в словаре соответствующую инструкцию
-					instruction(this); //Выполняем ее
-				InstructionPointer++; //И увеличиваем счетчик по инструкциям
+				if (InstructionDict.TryGetValue(Instructions[InstructionPointer], out var instruction)) //Р•СЃР»Рё РЅР°С€Р»Рё РІ СЃР»РѕРІР°СЂРµ СЃРѕРѕС‚РІРµС‚СЃС‚РІСѓСЋС‰СѓСЋ РёРЅСЃС‚СЂСѓРєС†РёСЋ
+					instruction(this); //Р’С‹РїРѕР»РЅСЏРµРј РµРµ
+				InstructionPointer++; //Р СѓРІРµР»РёС‡РёРІР°РµРј СЃС‡РµС‚С‡РёРє РїРѕ РёРЅСЃС‚СЂСѓРєС†РёСЏРј
             }	
 		}
 	}

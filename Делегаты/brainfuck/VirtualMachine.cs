@@ -31,7 +31,7 @@ namespace func.brainfuck
 			{
 				if (InstructionDict.TryGetValue(Instructions[InstructionPointer], out var instruction)) //Если нашли в словаре соответствующую инструкцию
 					instruction(this); //Выполняем ее
-                InstructionPointer++; //И увеличиваем счетчик по инструкциям
+				InstructionPointer++; //И увеличиваем счетчик по инструкциям
             }	
 		}
 	}

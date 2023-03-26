@@ -1,9 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\LINQ",
+    "\\LINQ\\linq-slideviews",
     "\\Делегаты",
-    "\\Делегаты\\brainfuck"
+    "\\Элементы функционального программирования",
+    "\\Элементы функционального программирования\\rocket"
   ],
-  "SelectedNode": "\\Делегаты\\brainfuck\\BrainfuckBasicCommands.cs",
+  "SelectedNode": "\\LINQ\\linq-slideviews\\linq-slideviews.csproj",
   "PreviewInSolutionExplorer": false
 }
